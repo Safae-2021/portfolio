@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Source+Serif+Pro:ital,wght@1,600&family=Zilla+Slab:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+
+
+*{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Zilla Slab', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    width: 100%;
+    height: 500px;
+    background-image: url(b-g.jpeg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 800px; */
+    color: white;
+
+
+}
+
+
+.navbar{
+    display: inline-flex;
+    margin-left: 60px ;
+    margin-top: 5px;
+    
+}
+.nav{
+    display: flex; 
+    margin-left: 500px;
+   
+}
+
+.navbar .nav p a{
+    cursor: pointer;
+    transition: color 0.3 ease;
+    color: white;
+    font-weight: 650;
+   
+}
+.navbar .nav p a:hover{
+    color: brown
+}
+
+.text{
+    margin-top: 10%;
+    margin-left: 15%;
+    font-weight: 650;
+}
+
+
+.menu{
+    display: none;
+}
+
+
+.about{
+    margin-top: 5%;
+}
+
+.line-1::before,
+.line-1::after{
+    background-color: #000;
+    content: "";
+    display: inline-flex;
+    height: 2px;
+    /* position: relative; */
+    vertical-align: middle;
+    width: 10%;
+}
+
+.me{
+    margin-top: 5%;
+}
+.img-1{
+    margin-left: 5%;
+    width: 20%;
+    border-radius: 20px;
+    /* it obligate to make display none to image to make animation  */
+    display: none;
+    /* transition-duration: 100ms;
+   transition-timing-function: cubic-bezier(.77,0,.18,1) ;
+    transition-delay: 5ms; */
+    transform: skew(5deg);
+}
+/* .img-2{
+    transform: rotate(360deg);   
+    transition: 2000ms ease;
+   transition-duration: 2000ms;
+
+} */
+
+.p-1{
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.service{
+    margin-top: 5%;
+    background-color: black;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.line-2::before,
+.line-2::after{
+    background-color: white;
+    content: "";
+    display: inline-flex;
+    height: 2px;
+    /* position: relative; */
+    vertical-align: middle;
+    width: 10%;
+    
+}
+
+.cards-1{
+    display: inline-flex;
+    margin-left: 5%;
+    width: 80%;
+    height: 250px;
+    /* transition: all 0.3s ease; */
+
+}
+
+
+.card-1{
+    background-color: rgba(87, 82, 82, 0.397);
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-top: 5%;
+    height: 90%;
+    /* transition: all 0.3s ease; */
+
+}
+.card-1:hover{
+  transform: scale(1.05);
+}
+
+
+
+.skills{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.ex{
+    display: inline-flex;
+    margin-left: 5%;
+   width: 100%;
+
+}
+.ex-1{
+    width: 50%;
+    /* height: 40%; */
+ 
+
+}
+.ex-2{
+    width:50%;
+    margin-top: 10px;
+    margin-right: 10%;
+}
+.teams{
+    background-color: black;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cards-2{
+    display: inline-flex;
+    margin-left: 10%;
+}
+
+
+.card-2{
+    background-color: rgba(54, 51, 51, 0.397);
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.card-2:hover{
+  transform: scale(1.05);
+}
+
+.school{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.wf3{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5%;
+    
+}
+.wf{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.fl{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 250px; */
+    border-radius:25%;
+}
+.company{
+    background-color: black;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+.d3s{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 5%;
+}
+.ds{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 250px; */
+    border-radius:25%;
+}
+.d3{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.contact{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.icons{
+   margin-left: 27%;
+    margin-top: 5%;
+  
+}
+.icons p{
+    display:inline-flex;
+   margin-left: 7%;
+
+}
+i{
+    color: brown;
+}
+.fa-mobile-alt{
+    margin-left: 5%;
+    margin-bottom: 15px;
+}
+.fa-mail-bulk{
+    margin-left: 5%;
+    margin-bottom: 15px;
+
+}
+.fa-linkedin-in{
+    margin-left: 5%;
+    margin-bottom: 15px;
+    display: inline-flex;
+}
+
+
+.fa-arrow-up{
+
+border-style: solid;
+border-color: black;
+border-radius: 50%;
+padding: 1%;
+}
+
+
+.footer{
+    background-color: black;
+    color: blanchedalmond;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+
+@media screen  and  (max-width :990px) 
+{
+    .navbar .nav{
+        display: none;
+    }
+   .navbar .menu{
+        display: block;
+        margin-left: 700px;
+        
+    }
+    .navbar-toggler{
+        background-color: black;
+    }
+    .navbar .nav-2 p a{
+        cursor: pointer;
+        transition: color 0.3 ease;
+        color: white;
+        font-weight: 650;
+       
+    }
+    .navbar .nav-2 p a:hover{
+        color: brown
+    }
+    .navbar h1 {
+        display: none;
+    }
+    .header .text{
+     
+      margin-top: 5%;
+      margin-left: 15%;
+      font-weight: 650;
+    }
+    
+  
+}
+@media screen  and (max-width :768px){
+    .navbar .menu{
+        margin-left: 450px; 
+    }
+    .icons{
+        margin-left: 20%;
+        margin-top: 5%;
+        display: block;
+        
+     }
+  
+
+}
+
+@media screen  and (max-width :320px){
+    .navbar .menu{
+        margin-left: 100px;
+    }
+
+    .about .img-1{
+        visibility: hidden;
+        /* margin-left: 5%;
+        width: 20%;
+        border-radius: 20px;
+        height: 100px;
+        margin-top: 10%; */
+        width: 0%;
+    }
+    .about h3{ 
+     width: 50%;
+   }
+     
+     .card-2 
+     h3 {
+        display: none;
+    }
+    .fl{
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 150px;
+        border-radius:25%;
+        margin-top: 20%;
+    }
+    .ds{
+        width: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
+        border-radius:25%;
+        height: 150px;
+    }
+    .icons {
+        margin-left: 20%;
+        margin-top: 5%;
+        display: block;
+     }
+     .icons .fa-linkedin-in{
+        display:inline-block;
+    }
+}
+
